@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useFlip from './hooks.js'
+import { useFlip, useAxios } from './hooks.js'
 import "./PokemonCard.css";
 
 /* Renders a single pokemon card. */
